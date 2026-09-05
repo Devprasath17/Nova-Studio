@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect } from "react";
-import { X, CheckCircle, Calendar, User } from "lucide-react";
+import { X, CheckCircle } from "lucide-react";
 import { Project } from "@/data/projects";
 import { ProjectGraphic } from "./ProjectGraphic";
 import { Button } from "./ui/Button";
@@ -71,18 +71,8 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
 
           {/* Title & Metadata */}
           <div>
-            <div className="flex flex-wrap items-center gap-3 text-xs font-mono text-zinc-400 mb-3">
-              <span className="flex items-center gap-1">
-                <User className="w-3.5 h-3.5 text-nova-cyan" /> {project.client}
-              </span>
-              <span>•</span>
-              <span className="flex items-center gap-1">
-                <Calendar className="w-3.5 h-3.5 text-nova-violet" /> {project.year}
-              </span>
-              <span>•</span>
-              <span className="px-2 py-0.5 rounded bg-white/5 border border-white/10 uppercase text-white">
-                {project.categoryLabel}
-              </span>
+            <div className="text-xs font-mono text-nova-cyan/90 font-medium mb-3 tracking-wide break-words md:whitespace-nowrap">
+              {project.client} • {project.year} • {project.categoryLabel}
             </div>
 
             <h2 id="modal-project-title" className="text-3xl md:text-4xl font-bold font-sans text-white tracking-tight mb-4">

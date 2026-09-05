@@ -30,18 +30,11 @@ export default function ContactPage() {
                 // STUDIO HEADQUARTERS
               </div>
 
-              {/* SF Studio */}
+              {/* Chennai Headquarters */}
               <div className="space-y-1 text-xs font-mono border-b border-surface-border pb-4">
-                <span className="text-nova-cyan font-bold block">// SAN FRANCISCO</span>
-                <span className="text-white block">450 Montgomery St, Suite 1200</span>
-                <span className="text-zinc-400 block">San Francisco, CA 94104</span>
-              </div>
-
-              {/* Tokyo Studio */}
-              <div className="space-y-1 text-xs font-mono border-b border-surface-border pb-4">
-                <span className="text-nova-violet font-bold block">// TOKYO</span>
-                <span className="text-white block">Roppongi Hills Mori Tower 28F</span>
-                <span className="text-zinc-400 block">Minato-ku, Tokyo 106-6108</span>
+                <span className="text-nova-cyan font-bold block">// CHENNAI, TAMIL NADU</span>
+                <span className="text-white block">Chennai, Tamil Nadu</span>
+                <span className="text-zinc-400 block">India</span>
               </div>
 
               {/* Direct Channels */}
@@ -54,11 +47,11 @@ export default function ContactPage() {
                   <span>studio@novastudio.design</span>
                 </a>
                 <a
-                  href="tel:+15550192831"
+                  href="tel:8438849180"
                   className="flex items-center gap-3 text-xs font-mono text-zinc-300 hover:text-nova-cyan transition-colors"
                 >
                   <Phone className="w-4 h-4 text-nova-violet" />
-                  <span>+1 (555) 019-2831</span>
+                  <span>8438849180</span>
                 </a>
               </div>
             </div>

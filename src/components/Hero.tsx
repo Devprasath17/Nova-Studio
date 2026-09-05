@@ -26,7 +26,7 @@ export const Hero = () => {
             <span className="w-2 h-2 rounded-full bg-nova-cyan animate-pulse" />
             <span>// 0.01 | TOP-TIER DIGITAL STUDIO</span>
             <span className="text-zinc-600">//</span>
-            <span className="text-zinc-300">S.F. - TOKYO</span>
+            <span className="text-zinc-300">CHENNAI, TAMIL NADU</span>
           </div>
 
           {/* Editorial Headline */}

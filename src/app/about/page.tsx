@@ -89,8 +89,8 @@ export default function AboutPage() {
               <span className="text-[10px] font-mono text-zinc-400 uppercase">Senior Staffed</span>
             </div>
             <div className="p-4 text-center">
-              <span className="text-3xl md:text-4xl font-bold font-mono text-emerald-400 block">SF + TYO</span>
-              <span className="text-[10px] font-mono text-zinc-400 uppercase">Global Studios</span>
+              <span className="text-2xl md:text-3xl font-bold font-mono text-emerald-400 block">CHENNAI</span>
+              <span className="text-[10px] font-mono text-zinc-400 uppercase">Studio Headquarters</span>
             </div>
           </div>
         </SectionReveal>

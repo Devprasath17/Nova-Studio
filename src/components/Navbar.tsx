@@ -99,12 +99,12 @@ export const Navbar = () => {
         {/* Right Action Items */}
         <div className="hidden sm:flex items-center gap-4">
           <a
-            href="tel:+15550192831"
+            href="tel:8438849180"
             className="hidden xl:flex items-center gap-2 text-xs font-mono text-zinc-400 hover:text-white transition-colors"
             aria-label="Direct Studio Phone Line"
           >
             <Phone className="w-3.5 h-3.5 text-nova-cyan" />
-            <span>+1 (555) 019-2831</span>
+            <span>8438849180</span>
           </a>
 
           <Link
@@ -158,8 +158,8 @@ export const Navbar = () => {
           <div className="flex flex-col gap-4 pt-6 border-t border-surface-border">
             <div className="flex items-center justify-between text-xs font-mono text-zinc-400">
               <span>Direct Studio Line:</span>
-              <a href="tel:+15550192831" className="text-white hover:text-nova-cyan">
-                +1 (555) 019-2831
+              <a href="tel:8438849180" className="text-white hover:text-nova-cyan">
+                8438849180
               </a>
             </div>
 

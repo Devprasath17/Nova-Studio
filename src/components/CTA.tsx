@@ -46,7 +46,7 @@ export const CTA = () => {
             </a>
 
             <a
-              href="tel:+15550192831"
+              href="tel:8438849180"
               className="flex items-center gap-3 text-sm font-mono text-zinc-300 hover:text-nova-cyan transition-colors"
             >
               <div className="p-2 rounded-lg bg-white/5 text-nova-violet">
@@ -54,7 +54,7 @@ export const CTA = () => {
               </div>
               <div>
                 <span className="text-[10px] text-zinc-500 block">DIRECT TELEPHONE</span>
-                <span>+1 (555) 019-2831</span>
+                <span>8438849180</span>
               </div>
             </a>
 
@@ -64,7 +64,7 @@ export const CTA = () => {
               </div>
               <div>
                 <span className="text-[10px] text-zinc-500 block">PHYSICAL STUDIOS</span>
-                <span>San Francisco // Tokyo // Online</span>
+                <span>Chennai, Tamil Nadu</span>
               </div>
             </div>
           </div>

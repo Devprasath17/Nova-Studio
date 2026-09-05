@@ -5,23 +5,14 @@ import Link from "next/link";
 import { ArrowUpRight, Github, Linkedin, Instagram, Twitter } from "lucide-react";
 
 export const Footer = () => {
-  const [sfTime, setSfTime] = useState<string>("");
-  const [tokyoTime, setTokyoTime] = useState<string>("");
+  const [chennaiTime, setChennaiTime] = useState<string>("");
 
   useEffect(() => {
     const updateTime = () => {
       const now = new Date();
-      setSfTime(
+      setChennaiTime(
         now.toLocaleTimeString("en-US", {
-          timeZone: "America/Los_Angeles",
-          hour: "2-digit",
-          minute: "2-digit",
-          hour12: true,
-        })
-      );
-      setTokyoTime(
-        now.toLocaleTimeString("en-US", {
-          timeZone: "Asia/Tokyo",
+          timeZone: "Asia/Kolkata",
           hour: "2-digit",
           minute: "2-digit",
           hour12: true,
@@ -52,16 +43,11 @@ export const Footer = () => {
               </p>
             </div>
 
-            {/* Live Studio Clocks */}
+            {/* Live Studio Clock */}
             <div className="flex items-center gap-6 text-xs font-mono text-zinc-400 p-3 rounded-xl bg-surface-card/60 border border-surface-border w-fit">
               <div>
-                <span className="text-[10px] text-zinc-500 block">SAN FRANCISCO</span>
-                <span className="text-white font-semibold">{sfTime || "09:00 AM"} PST</span>
-              </div>
-              <div className="h-6 w-px bg-surface-border" />
-              <div>
-                <span className="text-[10px] text-zinc-500 block">TOKYO</span>
-                <span className="text-white font-semibold">{tokyoTime || "02:00 AM"} JST</span>
+                <span className="text-[10px] text-zinc-500 block uppercase">CHENNAI, TAMIL NADU</span>
+                <span className="text-white font-semibold">{chennaiTime || "09:00 AM"} IST</span>
               </div>
             </div>
           </div>
